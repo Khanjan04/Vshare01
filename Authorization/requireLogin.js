@@ -19,7 +19,7 @@ module.exports = (req, res, next) => {
   } catch (err) {
     if (err) {
       console.log(err);
-      res.status(401).json({ err: "Token is not valid" });
+      res.status(401).json({ err: "Token is not at all valid" });
     }
   }
 };
